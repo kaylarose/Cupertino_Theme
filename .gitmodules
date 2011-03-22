@@ -1,0 +1,3 @@
+[submodule "cupertino"]
+	path = cupertino
+	url = git://github.com/kaylarose/Cupertino_Theme.git
