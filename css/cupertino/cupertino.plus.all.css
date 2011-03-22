@@ -1,0 +1,441 @@
+/*
+ * Cupertino UI Common Styles 0.1
+ * @author Kayla Rose Martin
+ * @license Creative Commons Attribution 3.0
+ */
+/*
+ * Cupertino UI Common Styles 0.1
+ */
+.ui-widget-header{
+    text-shadow: 0px 1px 0px #FFF;
+}
+.ui-state-default{
+    -moz-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    text-shadow: 0px 1px 0px #FFF;
+}
+.ui-state-highlight .ui-icon,
+.ui-state-error .ui-icon{
+    margin-top: -2px;
+}
+
+/*
+ * Cupertino UI Accordian 0.1
+ */
+ /*Container*/
+ .ui-accordian {
+    padding: 0;
+    border: none;
+ }
+ /*Nav*/
+  .ui-accordion-icons .ui-accordion-header a{
+    text-shadow: 0px 1px 0px #FFF;
+  }
+  .ui-accordion .ui-accordion-header{
+    -moz-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid #999;
+  }
+  .ui-accordion .ui-accordion-header.ui-state-active{
+    -moz-box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15) inset, 1px 1px 0px rgba(255, 255, 255, .5) inset;
+    -webkit-box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15) inset, 1px 1px 0px rgba(255, 255, 255, .5) inset;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15) inset, 1px 1px 0px rgba(255, 255, 255, .5) inset;
+  }
+   /*Content*/
+  .ui-accordion .ui-widget-content{
+     border-color: #FFF #AAA #999 #DDD;
+     -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+     -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+  }
+
+/*
+ * Cupertino UI Autocomplete 0.1
+ * @author Kayla Rose
+ * @license Creative Commons Attribution 3.0
+ */
+.ui-autocomplete.ui-menu .ui-menu-item .ui-state-hover{
+    background: #91a8ca;
+    border-color: #5f83b9;
+    color: #FFF;
+    text-shadow: 0 1px 1px #234386;
+    -moz-box-shadow: 0 0 3px #3C9BF3;
+    -webkit-box-shadow: 0 0 3px #3C9BF3;
+    box-shadow: 0 0 3px #3C9BF3;
+}
+
+/*
+ * Cupertino UI Buttons 0.1
+ */
+/*button sets*/
+.ui-buttonset .ui-button{
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);       
+}
+.ui-buttonset .ui-state-default{
+    -moz-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    border-bottom: 1px solid #999;
+    text-shadow: 0px 1px 0px #FFF;
+}
+.ui-buttonset .ui-state-default.ui-corner-left{
+    border-right: 1px solid #EEE;
+}
+.ui-buttonset .ui-corner-right{
+    border-left: 1px solid #EEE;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, .5) inset,0px 1px 0px rgba(255, 255, 255, .5);
+}
+.ui-buttonset .ui-state-active{
+    background: #3D3D3D;
+    background: -moz-linear-gradient(top, #3D3D3D 0%, #7d7e7d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3D3D3D), color-stop(100%,#7d7e7d));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D3D3D', endColorstr='#7d7e7d',GradientType=0 );
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+    border-color: #111 #555 #555 #555;
+    color: #FFF;
+    text-shadow: 0px 1px 2px #000;
+}
+.ui-buttonset .ui-state-active.ui-corner-left{
+    border-right: 1px solid #555;
+}
+.ui-buttonset .ui-state-active.ui-corner-right{
+    border-left: 1px solid #555;
+}
+
+/*
+ * Cupertino UI Datepicker 0.1
+ * @author Kayla Rose
+ * @license Creative Commons Attribution 3.0
+ */
+/* Container */
+.ui-datepicker {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    border-color: #BBB #AAA #999 #DDD;
+   -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+/* Header */
+.ui-datepicker .ui-widget-header {
+    border-color: #FFF #BBB #AAA #FFF;
+}
+.ui-datepicker .ui-widget-header.ui-corner-all{
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+.ui-datepicker .ui-widget-header .ui-datepicker-prev.ui-state-hover,
+.ui-datepicker .ui-widget-header .ui-datepicker-next.ui-state-hover{
+    border-color:  #999 #DDD #FFF #AAA;
+}
+/* Body */
+.ui-datepicker .ui-datepicker-calendar{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+.ui-datepicker .ui-state-default{
+    background: transparent;
+    border-color: #EDEDED;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.ui-datepicker .ui-datepicker-today .ui-state-highlight{
+    border-color: #CCC;
+    background:#EEE;
+    color: #777;
+}
+.ui-datepicker .ui-state-default.ui-state-hover{
+    background:  #D8EBFD;
+    border-color: #CCC;
+}
+.ui-datepicker .ui-state-active, .ui-datepicker .ui-datepicker-current-day .ui-state-active{
+    background: #91a8ca;
+    border-color: #5f83b9;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #234386;
+}
+.ui-datepicker .ui-datepicker-current-day .ui-state-active{
+    -moz-box-shadow: 0 0 3px #3C9BF3;
+    -webkit-box-shadow: 0 0 3px #3C9BF3;
+    box-shadow: 0 0 3px #3C9BF3;
+}
+
+/*
+ * Cupertino UI Dialog Styles 0.1
+ */
+ .ui-dialog{
+    padding: 0px;
+    border-color: #BBB #AAA #999 #DDD;
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+ }
+ .ui-dialog .ui-widget-header {
+    border-color: #FFF #BBB #AAA #DDD;
+ }
+ .ui-dialog .ui-widget-header.ui-corner-all{
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+ }
+ /*Controls*/
+ .ui-dialog .ui-widget-header .ui-corner-all{
+     border-color:  #999 #DDD #FFF #AAA;
+ }
+ 
+ /*
+ * Cupertino UI Progress Bar 0.1
+ * Note: Progressbar and slider share alot of styles, feel free to DRY this up.
+ */
+ /* Track */
+.ui-progressbar.ui-widget-content{
+    background: #3D3D3D;
+    background: -moz-linear-gradient(top, #3D3D3D 0%, #7d7e7d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3D3D3D), color-stop(100%,#7d7e7d));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D3D3D', endColorstr='#7d7e7d',GradientType=0 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    border-color: #111 #666 #555 #777;
+}
+.ui-progressbar .ui-widget-header{
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #b8c6df 0%, #6d88b7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8c6df), color-stop(100%,#6d88b7));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0);
+    -moz-box-shadow: 0 0px 4px #5689D6 inset;
+    -webkit-box-shadow: 0 0px 2px #5689D6 inset;
+    box-shadow: 0 0px 2px #5689D6 inset;
+    border-color:#5689D6 #444 #555 #5689D6;
+}
+
+/*
+ * Cupertino UI Slider 0.1
+ * Note: Progressbar and slider share alot of styles, feel free to DRY this up.
+ */
+/* Track */
+.ui-slider.ui-widget-content {
+    background: #3D3D3D;
+    background: -moz-linear-gradient(top, #3D3D3D 0%, #7d7e7d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3D3D3D), color-stop(100%,#7d7e7d));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D3D3D', endColorstr='#7d7e7d',GradientType=0 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    border-color: #111 #666 #555 #777;
+}
+.ui-slider .ui-slider-range.ui-widget-header{
+    background: #b8c6df;
+    background: -moz-linear-gradient(top, #b8c6df 0%, #6d88b7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b8c6df), color-stop(100%,#6d88b7));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0px 2px #0066FF inset;
+    -webkit-box-shadow: 0 0px 2px #0066FF inset;
+    box-shadow: 0 0px 2px #0066FF inset;
+}
+/* Handles */
+.ui-slider .ui-slider-handle.ui-corner-all{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.ui-slider .ui-slider-handle{
+    height: 1em;
+    width: 1em;
+    border-color: #CCC #777 #777 #FFF;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    top: -0.2em;
+}
+.ui-slider-vertical .ui-slider-handle {
+    left: -0.2em;
+    border-color: #FFF #777 #777 #DDD;
+}
+.ui-slider-vertical .ui-slider-range{
+    -moz-box-shadow: 0 1px 2px #0066FF inset;
+}
+.ui-slider .ui-slider-handle.ui-state-active,
+.ui-slider .ui-slider-handle.ui-state-focus{
+    -moz-box-shadow: 0 0 4px #3C9BF3;
+    -webkit-box-shadow: 0 0 4px #3C9BF3;
+    box-shadow: 0 0 4px #3C9BF3;
+}
+
+/*
+ * Cupertino UI Tabs 0.1
+ */
+ /*Container*/
+ .ui-tabs {
+    padding: 0;
+    border: none;
+ }
+ .ui-tabs.ui-widget-content{
+   background: transparent;
+ }
+ /*Nav*/
+ .ui-tabs .ui-tabs-nav{
+    padding: 0;
+ }
+ .ui-tabs .ui-widget-header{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #BBB;
+ }
+ .ui-tabs .ui-widget-header .ui-state-default{
+    -moz-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset;
+    -webkit-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset;
+ }
+ /*Content*/
+ .ui-tabs .ui-widget-content{
+    background: #FDFDFD;
+    border: 1px solid;
+    border-color: #FFF #AAA #999 #DDD;
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15); 
+ }
+ 
+ /*
+ * Cupertino UI Scoped Form 0.1
+ * Note: You must add the class cupertino_plus to a parent element for styling to be applied to forms. (e..g add <body class="cupertino_plus">)
+ */
+ .cupertino_plus [disabled]{
+    opacity: .5;
+    filter: alpha(opacity = 50);
+    zoom: 1;
+ }
+ /* Inputs */
+ .cupertino_plus select,
+ .cupertino_plus input,
+ .cupertino_plus textarea{
+    font-size: 16px;
+    padding: 5px;
+    text-shadow: 0px 1px 0px #BBB;
+    outline: none;
+    border: 1px solid #CCC;
+    border-color: #CCC #AAA #AAA #DDD;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #DDD;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#dddddd', EndColorStr='#ffffff');
+    background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#FFF));
+    background: -moz-linear-gradient(top,  #FFF, #DDD 2px,  #fff);
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+  }
+  .cupertino_plus textarea:focus,
+  .cupertino_plus select:focus,
+  .cupertino_plus input:focus{
+    border-color: #5f83b9;
+    -moz-box-shadow: 0 0 3px #3C9BF3;
+    -webkit-box-shadow: 0 0 3px #3C9BF3;
+    box-shadow: 0 0 3px #3C9BF3;
+  }
+  /* Regular Buttons */
+  .cupertino_plus input[type=submit],
+  .cupertino_plus input[type=reset],
+  .cupertino_plus button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+     padding: 3px;
+     font-size: 1.2em;
+     -moz-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, .5) inset, 0px 1px 0px rgba(255, 255, 255, .5);
+    border-bottom: 1px solid #999;
+    text-shadow: 0px 1px 0px #FFF;
+    background: url("images/ui-bg_highlight-hard_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCC;
+    background: -moz-linear-gradient(top, #E2E2E2 0%, #CCC 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E2E2E2), color-stop(100%,#CCC));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2E2E2', endColorstr='#CCCCCC',GradientType=0 );
+    border: 1px solid #BBB;
+    color: #444;
+    font-weight: bold;
+  }
+  .cupertino_plus input[type=submit]:hover,
+  .cupertino_plus input[type=reset]:hover,
+  .cupertino_plus button:hover{
+    background: url("images/ui-bg_inset-soft_50_bbbbbb_1x100.png") repeat-x scroll 50% 50% #BBB;
+    background: -moz-linear-gradient(top, #BABABA 0%, #CCC 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BABABA), color-stop(100%,#CCC));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BABABA', endColorstr='#CCCCCC',GradientType=0 );
+    border: 1px solid #AAA;
+  }
+  .cupertino_plus input[type=submit]:active,
+  .cupertino_plus input[type=reset]:active,
+  .cupertino_plus button:active{
+    border: 1px solid #5f83b9;
+    background: #91a8ca url(images/ui-bg_highlight-soft_50_91a8ca_1x100.png) 50% 50% repeat-x;
+    background: -moz-linear-gradient(top, #A9BBD5 0%, #91a8ca 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A9BBD5), color-stop(100%,#91a8ca));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A9BBD5', endColorstr='#91a8ca',GradientType=0 );
+    color: #111; 
+    -moz-box-shadow: 0 0 3px #3C9BF3;
+    -webkit-box-shadow: 0 0 3px #3C9BF3;
+    box-shadow: 0 0 3px #3C9BF3;
+  }
+  
+  /* Bonus Buttons (inspired by http://dtrejo.github.com/aristo/) */
+  .cupertino_plus input[type=submit].green,
+  .cupertino_plus input[type=reset].green,
+  .cupertino_plus button.green {
+    background: #A9CD7E;
+    background: -moz-linear-gradient(top, #A9CD7E 0%, #81A558 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A9CD7E), color-stop(100%,#81A558));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A9CD7E', endColorstr='#81A558',GradientType=0 );
+    border-color: #92BA63 #8AB05E #81A558;
+    color: #374C29;
+    text-shadow: 0 1px 1px #C9DBB4;
+  }
+  .cupertino_plus input[type=submit].green:hover,
+  .cupertino_plus input[type=reset].green:hover,
+  .cupertino_plus button.green:hover {
+    background: #81A558;
+    background: -moz-linear-gradient(top, #81A558 0%, #A9CD7E 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81A558), color-stop(100%,#A9CD7E));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81A558', endColorstr='#A9CD7E',GradientType=0 );
+  }
+  .cupertino_plus input[type=submit].red,
+  .cupertino_plus input[type=reset].red,
+  .cupertino_plus button.red {
+    background: #EE8679;
+    background: -moz-linear-gradient(top, #EE8679 0%, #B94543 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EE8679), color-stop(100%,#B94543));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE8679', endColorstr='#B94543',GradientType=0 );
+    border-color: #A2403E;
+    color: #4F0F0E;
+    text-shadow: 0 1px 1px #FA9287;
+  }
+  .cupertino_plus input[type=submit].red:hover,
+  .cupertino_plus input[type=reset].red:hover,
+  .cupertino_plus button.red:hover {
+    background: #B94543;
+    background: -moz-linear-gradient(top, #B94543 0%, #EE8679 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B94543), color-stop(100%,#EE8679));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B94543', endColorstr='#EE8679',GradientType=0 );
+  }
